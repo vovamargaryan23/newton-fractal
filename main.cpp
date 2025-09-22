@@ -5,11 +5,11 @@
 #include <cmath>
 #include "fractal.h"
 
-constexpr int IMAGE_WIDTH = 1200;
-constexpr int IMAGE_HEIGHT = 900;
-constexpr int MAX_ITERATIONS = 256;
+constexpr int IMAGE_WIDTH = 1000;
+constexpr int IMAGE_HEIGHT = 1000;
+constexpr int MAX_ITERATIONS = 512;
 constexpr int DEFAULT_N = 3;
-constexpr float TOLERANCE = 1e-5;
+constexpr float TOLERANCE = 1e-6;
 constexpr float TWO_PI = 6.28318530717958647692f;
 
 constexpr int X_MIN = -2, X_MAX = 2, Y_MIN = -2, Y_MAX = 2;
